@@ -44,15 +44,6 @@ Check out the 'vimrc' file for more...
     * `Ctrl-P` - open directory browser
     * `,p` - to find and highlight the currently open file in the tree
 
-*   nerdcommenter ([github](http://github.com/scrooloose/nerdcommenter))
-
-    Vim plugin for intensely orgasmic commenting
-
-    * `,/` - toggle comment
-    * `,cc` - add commenting
-    * `,cu` - Uncomment
-    * check docs for more
-
 *   command-t 1.0 ([vim.org](http://www.vim.org/scripts/script.php?script_id=3025) [git](git://git.wincent.com/command-t.git))
 
     TextMate Command-T like file finder for vim
@@ -66,6 +57,15 @@ Check out the 'vimrc' file for more...
       * `Esc` - cancel
       * `Ctrl-c` - cancel
 
+*   nerdcommenter ([github](http://github.com/scrooloose/nerdcommenter))
+
+    Vim plugin for intensely orgasmic commenting
+
+    * `,/` - toggle comment
+    * `,cc` - add commenting
+    * `,cu` - Uncomment
+    * check docs for more
+
 *   autocomplpop 2.14.1 ([vim.org](http://www.vim.org/scripts/script.php?script_id=1879))
 
     Automatically opens popup menu for completions
@@ -77,6 +77,8 @@ Check out the 'vimrc' file for more...
     Source code browser (supports C/C++, java, perl, python, tcl, sql, php, etc)
 
     * `,t` - toggle tags window
+
+    remember to update ctags (in OSX: sudo brew install ctags)
 
 *   minibufexpl 6.3.2 ([vim.org](http://www.vim.org/scripts/script.php?script_id=159))
 
@@ -164,6 +166,17 @@ Check out the 'vimrc' file for more...
     * `\CC` - exits vim with error code (like :cquit). this will indicate to git that merge resolution failed
 
     * `:h threesome` - you should probably read it ;)
+
+*   coffeeScript ([github](https://github.com/kchmck/vim-coffee-script))
+
+    CoffeScript support, with recompile on write
+
+    * `:CoffeeMake` compile current file
+    * `:CoffeeCompile` show the current file or selection in JavaScript
+
+*   jasmine test runner
+
+    * `,m` save all files and run tests in spec directory
 
 *   rails ([vim.org](http://www.vim.org/scripts/script.php?script_id=1567)) ([github](http://github.com/tpope/vim-rails))
 
@@ -401,10 +414,6 @@ Check out the 'vimrc' file for more...
 *   markdown ([github](http://github.com/plasticboy/vim-markdown))
 
     syntax for [Markdown](http://daringfireball.net/projects/markdown/)
-
-*   coffee-script ([github](http://github.com/kchmck/vim-coffee-script))
-
-    syntax for [Coffee script](http://jashkenas.github.com/coffee-script/)
 
 *   jade ([vim.org](http://www.vim.org/scripts/script.php?script_id=3192))
 

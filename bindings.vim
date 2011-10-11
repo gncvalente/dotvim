@@ -34,3 +34,7 @@ set completeopt=menuone,preview
 nmap :W :w
 nmap :Q :q
 nmap :E :e
+
+" Jasmine run tests
+map <leader>m :wa \|! jasmine-node spec --noColor <CR>
+
