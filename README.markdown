@@ -406,6 +406,10 @@ Check out the 'vimrc' file for more...
 
     syntax for [Coffee script](http://jashkenas.github.com/coffee-script/)
 
+*   jade ([vim.org](http://www.vim.org/scripts/script.php?script_id=3192))
+
+    Jade syntax and indenting 
+
 ### Misc
 
 The following is a list of commands and key bindings that I personally find interesting
